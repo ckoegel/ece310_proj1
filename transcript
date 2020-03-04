@@ -1,0 +1,227 @@
+# //  ModelSim SE-64 10.7c Aug 17 2018Linux 3.10.0-1062.12.1.el7.x86_64
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile serial_bcd_alu_tb.wlf
+vsim -voptargs=+acc work.serial_bcd_alu_tb
+# vsim -voptargs="+acc" work.serial_bcd_alu_tb 
+# Start time: 16:15:07 on Mar 04,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: sipo33.v(8): Module 'dff' is not defined.
+# ** Error: fa_cla_4bit.v(23): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(24): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(25): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(26): Module 'fa_cla' is not defined.
+# ** Error: BCD_digit_add.v(51): Module 'invalid_BCD' is not defined.
+# ** Error: fa_cla_4bit.v(23): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(24): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(25): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(26): Module 'fa_cla' is not defined.
+# ** Error: BCD_digit_add.v(51): Module 'invalid_BCD' is not defined.
+# ** Error: fa_cla_4bit.v(23): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(24): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(25): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(26): Module 'fa_cla' is not defined.
+# ** Error: BCD_digit_add.v(51): Module 'invalid_BCD' is not defined.
+# ** Error: fa_cla_4bit.v(23): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(24): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(25): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(26): Module 'fa_cla' is not defined.
+# ** Error: BCD_digit_add.v(51): Module 'invalid_BCD' is not defined.
+# ** Error: fa_cla_4bit.v(23): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(24): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(25): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(26): Module 'fa_cla' is not defined.
+# ** Error: BCD_digit_add.v(51): Module 'invalid_BCD' is not defined.
+# ** Error: fa_cla_4bit.v(23): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(24): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(25): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(26): Module 'fa_cla' is not defined.
+# ** Error: BCD_digit_add.v(51): Module 'invalid_BCD' is not defined.
+# ** Error: fa_cla_4bit.v(23): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(24): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(25): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(26): Module 'fa_cla' is not defined.
+# ** Error: BCD_digit_add.v(51): Module 'invalid_BCD' is not defined.
+# ** Error: fa_cla_4bit.v(23): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(24): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(25): Module 'fa_cla' is not defined.
+# ** Error: fa_cla_4bit.v(26): Module 'fa_cla' is not defined.
+# ** Error: BCD_digit_add.v(51): Module 'invalid_BCD' is not defined.
+# ** Error: piso20.v(10): Module 'dff' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 16:15:09 on Mar 04,2020, Elapsed time: 0:00:02
+# Errors: 42, Warnings: 0
+vsim -voptargs=+acc work.serial_bcd_alu_tb
+# vsim -voptargs="+acc" work.serial_bcd_alu_tb 
+# Start time: 16:17:43 on Mar 04,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: sipo33.v(8): Module 'dff' is not defined.
+# ** Error: piso20.v(10): Module 'dff' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 16:17:49 on Mar 04,2020, Elapsed time: 0:00:06
+# Errors: 14, Warnings: 0
+vsim -voptargs=+acc work.serial_bcd_alu_tb
+# vsim -voptargs="+acc" work.serial_bcd_alu_tb 
+# Start time: 16:18:39 on Mar 04,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.serial_bcd_alu_tb(fast)
+# Loading work.serial_bcd_alu(fast)
+# Loading work.sipo33(fast)
+# Loading work.dff(fast)
+# Loading work.nines_4(fast)
+# Loading work.nines_comp(fast)
+# Loading work.hw4_q1b(fast)
+# Loading work.BCD_digit_add(fast)
+# Loading work.fa_cla_4bit(fast)
+# Loading work.fa_cla(fast)
+# Loading work.fa_cla_4bit_lookahead(fast)
+# Loading work.invalid_BCD(fast)
+# Loading work.plus6_dfl(fast)
+# Loading work.piso20(fast)
+# Loading work.dff(fast__1)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (20) for port 'S'. The port definition is at: BCD_add_4digit.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /serial_bcd_alu_tb/DUT/adder File: serial_bcd_alu.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (20) for port 'S'. The port definition is at: BCD_add_4digit.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /serial_bcd_alu_tb/DUT/subtractor File: serial_bcd_alu.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (20) for port 'A'. The port definition is at: serial_bcd_alu.v(67).
+#    Time: 0 ns  Iteration: 0  Instance: /serial_bcd_alu_tb/DUT/nines_comp_sub File: serial_bcd_alu.v Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (20) for port 'nines_A'. The port definition is at: serial_bcd_alu.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /serial_bcd_alu_tb/DUT/nines_comp_sub File: serial_bcd_alu.v Line: 31
+add wave -r /*
+run -all
+#                    0: xxxxx
+#                    5: 00000
+#                  265: 80000
+#                  275: 40000
+#                  285: 20000
+#                  295: 90000
+#                  305: c8000
+#                  315: e4000
+#                  325: 72000
+#                  335: b9000
+#                  345: 5c800
+#                  355: 2e400
+#                  365: 17200
+#                  375: 0b900
+#                  385: 85c80
+#                  395: 42e40
+#                  405: 21720
+#                  415: 10b90
+#                  425: 085c8
+#                  435: 042e4
+#                  445: 02172
+#                  455: 010b9
+#                  465: 8085c
+#                  475: 4042e
+#                  485: a0217
+#                  495: 5010b
+#                  505: 28085
+#                  515: 14042
+#                  525: 0a021
+#                  535: 85010
+#                  545: 42808
+#                  555: a1404
+#                  565: d0a02
+#                  575: 68501
+#                  585: 34280
+#                  595: 1a140
+#                  605: 0d0a0
+#                  615: 06850
+#                  625: 03428
+#                  635: 01a14
+#                  645: 00d0a
+#                  655: 00685
+#                  665: 00342
+#                  675: 001a1
+#                  685: 000d0
+#                  695: 00068
+#                  705: 00034
+#                  715: 0001a
+#                  725: 0000d
+#                  735: 00006
+#                  745: 00003
+#                  755: 00001
+#                  765: 00000
+#                  925: 80000
+#                  935: 40000
+#                  945: a0000
+#                  955: 50000
+#                  965: 28000
+#                  975: 14000
+#                  985: 0a000
+#                  995: 85000
+#                 1005: c2800
+#                 1015: e1400
+#                 1025: 70a00
+#                 1035: 38500
+#                 1045: 9c280
+#                 1055: ce140
+#                 1065: 670a0
+#                 1075: 33850
+#                 1085: 99c28
+#                 1095: cce14
+#                 1105: e670a
+#                 1115: f3385
+#                 1125: f99c2
+#                 1135: 7cce1
+#                 1145: be670
+#                 1155: 5f338
+#                 1165: af99c
+#                 1175: 57cce
+#                 1185: 2be67
+#                 1195: 15f33
+#                 1205: 0af99
+#                 1215: 857cc
+#                 1225: c2be6
+#                 1235: 615f3
+#                 1245: 30af9
+#                 1255: 1857c
+#                 1265: 8c2be
+#                 1275: c615f
+#                 1285: 630af
+#                 1295: b1857
+#                 1305: 58c2b
+#                 1315: 2c615
+#                 1325: 1630a
+#                 1335: 8b185
+#                 1345: 458c2
+#                 1355: 22c61
+#                 1365: 11630
+#                 1375: 88b18
+#                 1385: 4458c
+#                 1395: 222c6
+#                 1405: 11163
+#                 1415: 088b1
+#                 1425: 04458
+#                 1435: 0222c
+#                 1445: 01116
+#                 1455: 0088b
+#                 1465: 00445
+#                 1475: 00222
+#                 1485: 00111
+#                 1495: 00088
+#                 1505: 00044
+#                 1515: 00022
+#                 1525: 00011
+#                 1535: 00008
+#                 1545: 00004
+#                 1555: 00002
+#                 1565: 00001
+#                 1575: 00000
+# ** Note: $stop    : serial_bcd_alu_tb.v(105)
+#    Time: 1730 ns  Iteration: 0  Instance: /serial_bcd_alu_tb
+# Break in Module serial_bcd_alu_tb at serial_bcd_alu_tb.v line 105
+# End time: 16:19:34 on Mar 04,2020, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 4
